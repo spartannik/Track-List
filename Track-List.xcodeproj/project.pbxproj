@@ -13,6 +13,9 @@
 		C67E952C28951D3B00339D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67E952A28951D3B00339D9D /* Main.storyboard */; };
 		C67E952E28951D3E00339D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67E952D28951D3E00339D9D /* Assets.xcassets */; };
 		C67E953128951D3E00339D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67E952F28951D3E00339D9D /* LaunchScreen.storyboard */; };
+		C67E953928951D5500339D9D /* TrackListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67E953828951D5500339D9D /* TrackListTableViewController.swift */; };
+		C67E953B28951D8700339D9D /* TrackDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67E953A28951D8700339D9D /* TrackDetailsViewController.swift */; };
+		C67E953D28951DE300339D9D /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67E953C28951DE300339D9D /* Track.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C67E952D28951D3E00339D9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C67E953028951D3E00339D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C67E953228951D3E00339D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C67E953828951D5500339D9D /* TrackListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListTableViewController.swift; sourceTree = "<group>"; };
+		C67E953A28951D8700339D9D /* TrackDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsViewController.swift; sourceTree = "<group>"; };
+		C67E953C28951DE300339D9D /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 		C67E952328951D3B00339D9D /* Track-List */ = {
 			isa = PBXGroup;
 			children = (
+				C67E953A28951D8700339D9D /* TrackDetailsViewController.swift */,
+				C67E953828951D5500339D9D /* TrackListTableViewController.swift */,
+				C67E953C28951DE300339D9D /* Track.swift */,
 				C67E952428951D3B00339D9D /* AppDelegate.swift */,
 				C67E952628951D3B00339D9D /* SceneDelegate.swift */,
 				C67E952828951D3B00339D9D /* ViewController.swift */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C67E952928951D3B00339D9D /* ViewController.swift in Sources */,
+				C67E953928951D5500339D9D /* TrackListTableViewController.swift in Sources */,
+				C67E953B28951D8700339D9D /* TrackDetailsViewController.swift in Sources */,
 				C67E952528951D3B00339D9D /* AppDelegate.swift in Sources */,
 				C67E952728951D3B00339D9D /* SceneDelegate.swift in Sources */,
+				C67E953D28951DE300339D9D /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
